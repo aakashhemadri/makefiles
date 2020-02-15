@@ -36,11 +36,23 @@ Central repository for all my makefiles, including CMake
 ## Complexity
 Complexity is relative, I'll leave it at that
 ### Basic
-Usually single file, basic options.
+single file, basic options.
+- [gdb](https://github.com/aakashhemadri/pragma/blob/master/lectures/2019/10/04/gdb/Makefile) - simple makefile for compiling cpp with gdb.
 ### Moderate
-Usually multi file, multi options, external deps, possibly packaging.
+multi file, multi options, external deps, possibly packaging.
+- [img-blur](https://github.com/aakashhemadri/img-blur/blob/develop/cpp/Makefile) - A simple image blur utility
+- [xdm-hack](https://github.com/aakashhemadri/xdm-hack/blob/master/Makefile) - An XDM theme primarily for arch linux.
+- [text-editor](https://github.com/aakashhemadri/text-editor/blob/master/Makefile) - A POSIX editor.
+- [sniffy](https://github.com/aakashhemadri/sniffy/blob/master/Makefile) - dead before it even started.
 ### Complex
-Usually multi file, multi options, external deps, packaging, multi-target.
+multi file, multi options, external deps, packaging, multi-target.
+- [yaruu](https://github.com/aakashhemadri/yaruu/blob/master/CMakeLists.txt) - yet another rsync wrapper.
 ## Repository
 Makefiles listed repository wise.
--
+- [xdm-hack](https://github.com/aakashhemadri/xdm-hack/blob/master/Makefile) - An XDM theme primarily for arch linux.
+- [img-blur](https://github.com/aakashhemadri/img-blur/blob/develop/cpp/Makefile) - A simple image blur utility
+- [text-editor](https://github.com/aakashhemadri/text-editor/blob/master/Makefile) - A POSIX editor.
+- [gdb](https://github.com/aakashhemadri/pragma/blob/master/lectures/2019/10/04/gdb/Makefile) - simple makefile for compiling cpp with gdb.
+- [yacp](https://github.com/aakashhemadri/yacp/blob/master/Makefile) - yet another config parse, written in lex.
+- [yaruu](https://github.com/aakashhemadri/yaruu/blob/master/CMakeLists.txt) - yet another rsync wrapper.
+- [sniffy](https://github.com/aakashhemadri/sniffy/blob/master/Makefile) - dead before it even started.
